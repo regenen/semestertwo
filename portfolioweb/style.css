@@ -8,6 +8,12 @@ p, h1 {
     font-family: 'Muli', sans-serif;
 }
 
+@font-face {
+    font-family: Lumiera;
+    src: url(images/Lumiera.otf);
+  }
+
+
 .containerheader {  
     display: flex;
     flex-direction: column;
@@ -22,6 +28,17 @@ p, h1 {
 .header img {
     width: 100%;
     height: 100%;
+}
+
+.stratconheader {
+    width: 100%;
+    background-color: #fff;
+}
+
+.stratconheader img {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
 
 .containernav {
@@ -99,8 +116,8 @@ p, h1 {
     flex-wrap: nowrap;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .text {
@@ -135,16 +152,12 @@ p, h1 {
     width: 100%;
     max-height: 500px;
     background-color: rgba(111,41,97,.3);
-    border: 2px;
-    border-radius: 5%;
     margin: 10px;
 }
 
 .gallery img {
     max-height: 100%;
     width: 100%;
-    border: 2px;
-    border-radius: 5%;
 }
 
 .containerpicture {
@@ -163,6 +176,61 @@ p, h1 {
 
 .picture img {
     width: 100%;
+}
+
+.containerposterblack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10%;
+    margin-bottom: 0%;
+
+    background-color: #000;
+}
+
+.postertext {
+    width: 35%;
+    margin: 50px;
+}
+
+.postertextblack {
+    width: 35%;
+    margin: 50px;
+}
+
+.postertext p {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+.postertextblack p {
+
+    color: #fff;
+    padding: 30px;
+}
+
+.postertext h1 {
+    font-family: 'Lumiera';
+    font-size: 100px;
+    margin: 0;
+}
+
+.postertextblack h1 {
+    font-family: 'Lumiera';
+    font-size: 100px;
+    margin: 0;
+    color: #fff;
+}
+
+.poster {
+    width: 100%;
+    margin: 4%;
+}
+
+.poster img {
+    width: 90%;
+    
 }
 
 .containerslider {
