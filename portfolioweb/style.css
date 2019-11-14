@@ -13,6 +13,9 @@ p, h1 {
     src: url(images/Lumiera.otf);
   }
 
+.containerjourneyselect {
+    background-image: url(images/bgjourney.png);
+}
 
 .containerheader {  
     display: flex;
@@ -262,16 +265,12 @@ p, h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-}
-
-.slider {
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 #lightSlider img {
-    width: 100%;
-    max-height: 600px;
+    width: 100%; 
 }
 
 #lightSlider ul {
@@ -284,6 +283,7 @@ p, h1 {
     float: left;
     cursor:pointer;
 }
+
 
 @media (max-width: 950px) {
     .intro h1 {
@@ -310,6 +310,11 @@ p, h1 {
     .text p {
         font-size: 19px;
         padding: 4px;
+    }
+
+    .containerslider {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .slider {
