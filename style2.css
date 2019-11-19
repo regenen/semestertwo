@@ -49,10 +49,11 @@ body {
 .headersco {
     grid-column-start: 1;
     grid-column-end: 9;
+    margin-bottom: 400px;
 }
 
 .headersco img {
-    width: 65%;
+    width: 70%;
   }
 
 .introsco {
